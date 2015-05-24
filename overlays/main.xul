@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<overlay id="userxul-main.xul" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  //
+  // Some evil websites use javascript to hijack basic browser UI keys (e.g.
+  // the slash key ('/'),  which should always mean "search the page content",
+  // and not "some other random thing").  Firefox is hellbent on sending these
+  // keys to the JS engine before we get a chance to see them here (wow!).  So
+  // we need a JS overlay to intercept them.
+  //
+  <script src="main.js"/>
+
+</overlay>
