@@ -5,6 +5,9 @@
 // This code prevents youtube (etc.) from stealing the slash key...
 //
 
+// // alert() does not work here but this does:
+// Services.prompt.alert(null, 'title of alert', 'message content');
+
 window.addEventListener("load", function load(event) {  // new browser window
   window.removeEventListener("load", load, false);      // we just do this once
   myThingy.init();                                      // must has object
