@@ -42,7 +42,6 @@ var myThingy = {
       if ( target.contentEditable == 'true'      ||
            target instanceof HTMLTextAreaElement ||
           (target instanceof HTMLInputElement && target.type == "text") ) {
-
         // no-op: allow slash to be typed into input fields, etc...
       } else {
         if ( event.charCode ) {
