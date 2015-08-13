@@ -1,3 +1,5 @@
+Slash Preserver
+===============
 
 Slash Preserver (slashpreserver) is a simple Firefox addon intended to prevent
 websites from hijacking the slash key ('/') for something other than the
@@ -22,9 +24,11 @@ gets loaded before the JS from the website.
 
 In essence, when the JS overlay sees the slash key, it does:
 
+```java
   gFindBar.onFindCommand();
   event.preventDefault();
   event.stopPropagation();
+```
 
 I had hoped that the stop/prevent methods would be sufficient to solve the
 problem, but it's not as they block the XUL layer from getting the key too.  I
@@ -39,30 +43,35 @@ can't fire that.  Also, if GM merely does a stopPropagation(), then XUL never
 gets the slash key (same problem as with the JS overlay).
 
 Sample sites that abuse the slash key (I'm looking at you google):
+------------------------------------------------------------------
 
-  https://www.youtube.com/watch?v=TllPrdbZ-VI
-  https://groups.google.com/forum/#!msg/vim_use/r3TdW9G9ms4/s-Jr3BpcnvUJ
+* [YouTube](https://www.youtube.com/watch?v=TllPrdbZ-VI)
+* [Google Groups](https://groups.google.com/forum/#!msg/vim_use/r3TdW9G9ms4/s-Jr3BpcnvUJ)
 
 See also:
+---------
 
-  http://github.com/perkint/slashpreserver
+* [](http://github.com/perkint/slashpreserver)
 
-  http://en.wikipedia.org/wiki/Don't_be_evil
+* [](http://en.wikipedia.org/wiki/Don't_be_evil)
 
-  http://stackoverflow.com/questions/29732741
+* [](http://stackoverflow.com/questions/29732741)
 
-  http://developer.mozilla.org/en-US/Add-ons/Code_snippets/On_page_load
+* [](http://developer.mozilla.org/en-US/Add-ons/Code_snippets/On_page_load)
 
 Installing this addon:
+----------------------
 
-  For paranoid people:
+* For paranoid people:
 
     Download the zip archive and inspect/build from source (it's small).
 
-  For trusting people:
+* For trusting people:
 
     DL the XPI file (listed above) and then install the addon from your local
     drive, e.g.:
 
+```
       file:///tmp/slashpreserver.xpi
+```
 
