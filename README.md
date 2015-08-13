@@ -51,13 +51,20 @@ Sample sites that abuse the slash key (I'm looking at you google):
 See also:
 ---------
 
-* [](http://github.com/perkint/slashpreserver)
+* [http://github.com/perkint/slashpreserver]
+  (http://github.com/perkint/slashpreserver)
 
-* [](http://en.wikipedia.org/wiki/Don't_be_evil)
+* [http://en.wikipedia.org/wiki/Don't_be_evil]
+  (http://en.wikipedia.org/wiki/Don't_be_evil)
 
-* [](http://stackoverflow.com/questions/29732741)
+* [http://stackoverflow.com/questions/29732741]
+  (http://stackoverflow.com/questions/29732741)
 
-* [](http://developer.mozilla.org/en-US/Add-ons/Code_snippets/On_page_load)
+* [http://developer.mozilla.org/en-US/Add-ons/Code_snippets/On_page_load]
+  (http://developer.mozilla.org/en-US/Add-ons/Code_snippets/On_page_load)
+
+* [Tor Perkins]
+  (http://www.torp.com/)
 
 Installing this addon:
 ----------------------
