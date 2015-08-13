@@ -42,8 +42,8 @@ whatever, but it does not have access to the gFindBar method (AFAIK), so it
 can't fire that.  Also, if GM merely does a stopPropagation(), then XUL never
 gets the slash key (same problem as with the JS overlay).
 
-Sample sites that abuse the slash key (I'm looking at you google):
-------------------------------------------------------------------
+Sample sites that abuse the slash key:
+--------------------------------------
 
 * [YouTube](https://www.youtube.com/watch?v=TllPrdbZ-VI)
 * [Google Groups](https://groups.google.com/forum/#!msg/vim_use/r3TdW9G9ms4/s-Jr3BpcnvUJ)
