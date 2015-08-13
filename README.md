@@ -64,7 +64,7 @@ See also:
   (http://developer.mozilla.org/en-US/Add-ons/Code_snippets/On_page_load)
 
 * [Tor Perkins]
-  (http://www.torp.com/)
+  (http://www.torp.com/resume/)
 
 Installing this addon:
 ----------------------
