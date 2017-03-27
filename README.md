@@ -45,8 +45,14 @@ gets the slash key (same problem as with the JS overlay).
 Sample sites that abuse the slash key:
 --------------------------------------
 
-* [YouTube](https://www.youtube.com/watch?v=TllPrdbZ-VI)
-* [Google Groups](https://groups.google.com/forum/#!msg/vim_use/r3TdW9G9ms4/s-Jr3BpcnvUJ)
+* [Bitbucket](https://bitbucket.org/)
+* [Django documentation](https://docs.djangoproject.com/)
+* Anything by [Google](https://www.google.com/)
+    * [Android Studio docs](http://tools.android.com/)
+    * [Android docs](https://developer.android.com/reference/packages.html), whose slash-breaker
+      is buggy, so it only sometimes hijacks the slash key
+    * [YouTube](https://www.youtube.com/watch?v=TllPrdbZ-VI)
+    * [Google Groups](https://groups.google.com/forum/#!msg/vim_use/r3TdW9G9ms4/s-Jr3BpcnvUJ)
 
 See also:
 ---------
