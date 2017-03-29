@@ -48,9 +48,10 @@ Sample sites that abuse the slash key:
 * [Bitbucket](https://bitbucket.org/)
 * [Django documentation](https://docs.djangoproject.com/)
 * Anything by [Google](https://www.google.com/)
+    * [Android Dev](https://developers.google.com/android/images)
+    * [Android Apps](https://play.google.com/store/apps/details?id=org.connectbot)
     * [Android Studio docs](http://tools.android.com/)
-    * [Android docs](https://developer.android.com/reference/packages.html), whose slash-breaker
-      is buggy, so it only sometimes hijacks the slash key
+    * [Android docs](https://developer.android.com/reference/packages.html)
     * [YouTube](https://www.youtube.com/watch?v=TllPrdbZ-VI)
     * [Google Groups](https://groups.google.com/forum/#!msg/vim_use/r3TdW9G9ms4/s-Jr3BpcnvUJ)
 
