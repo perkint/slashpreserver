@@ -29,8 +29,8 @@ var myThingy = {
                 if ( gFindBar && gFindBar.hidden ) {
                   gFindBar.onFindCommand();
                 }
-                event.preventDefault();  // nuke it (needed?)
-                event.stopPropagation(); // nuke it (essential)
+                event.preventDefault();           // nuke it (needed?)
+                event.stopImmediatePropagation(); // nuke it (essential)
               }
               break;
           }

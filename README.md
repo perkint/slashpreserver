@@ -27,7 +27,7 @@ In essence, when the JS overlay sees the slash key, it does:
 ```java
   gFindBar.onFindCommand();
   event.preventDefault();
-  event.stopPropagation();
+  event.stopImmediatePropagation();
 ```
 
 I had hoped that the stop/prevent methods would be sufficient to solve the
