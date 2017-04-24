@@ -25,7 +25,7 @@ var slashpreserver = function (event) {
   var target = event.originalTarget;
   if ( target.contentEditable == 'true'      ||
        target instanceof HTMLTextAreaElement ||
-      (target instanceof HTMLInputElement && target.type == "text") ) {
+      (target instanceof HTMLInputElement && (target.type == "text" || target.type == "date"))) {
     // no-op: allow slash to be typed into input fields, etc...
   } else {
     var key_or_char_string = event.charCode
